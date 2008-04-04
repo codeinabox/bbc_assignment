@@ -1,0 +1,109 @@
+/* -------------------------------------------------------
+
+base.css
+
+Sets a base styles for all the HTML elements
+
+------------------------------------------------------- */
+
+a img {
+	border: none;
+}
+
+/* Tables */
+
+thead, tbody, tfoot { vertical-align: middle }
+
+th,td   {
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+th {
+	font-weight: bold;
+}
+
+
+/* Lists */
+
+ul, ol {
+	margin: 1em 0 1em 0;
+	padding: 0 0 0 2em;
+}
+
+ol {
+	list-style-type: disc;
+}
+
+
+/* Taken from http://www.w3.org/TR/CSS21/sample.html
+-------------------------------------------------------------- */
+
+small, sub, sup { font-size: .83em }
+sub { vertical-align: sub }
+sup { vertical-align: super }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { font-weight: bolder }
+
+h1 { font-size: 2em; margin: .67em 0 }
+h2 { font-size: 1.5em; margin: .75em 0 }
+h3 { font-size: 1.17em; margin: .83em 0 }
+h4 { margin: 1.12em 0 }
+h5 { font-size: .83em; margin: 1.5em 0 }
+h6 { font-size: .75em; margin: 1.67em 0 }
+
+/* Taken from Blueprint 0.4
+-------------------------------------------------------------- */
+
+/* Headings
+-------------------------------------------------------------- */
+/*
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; line-height:2; }
+h4 { font-size: 1.2em; line-height:1.25; font-weight:bold; }
+h5 { font-size: 1em; font-weight:bold; }
+h6 { font-size: 1em; }
+*/
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em 0;}
+p.last      { margin-bottom:0; }
+
+
+/*ul, ol      { margin: 0 0 1.5em 1.5em; } */
+ol          { list-style-type: decimal; }
+dl          { margin: 1.5em 0; }
+dl dt       { font-weight: bold; }
+
+a           { text-decoration: underline; outline: none; }
+
+blockquote  { margin: 1.5em 0 1.5em 1.5em; font-style: italic; }
+strong      { font-weight: bold; }
+em          { font-style: italic; }
+pre         { margin-bottom: 1.3em; padding:1.5em; white-space: pre; }
+code        { font:0.9em monospace; }
+
+
+/* Some default classes
+-------------------------------------------------------------- */
+
+.hide {
+	display: none;
+}
+
+.clear	{
+	clear:both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
